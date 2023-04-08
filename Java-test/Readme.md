@@ -15,5 +15,16 @@ docker run -it {image signature}
 ```
 docker build -t <username>/<repo name>
 ```
-The -t command will name your image. 
+    The -t command will name your image. 
 5. Now you can push the docker image by running the docker command and you can either omit the tag or not. 
+
+## To pull the image
+1. run this command
+```
+docker pull <username>/repo-name
+```
+
+## to run the image
+```
+docker run -it <username>/reponame
+```
