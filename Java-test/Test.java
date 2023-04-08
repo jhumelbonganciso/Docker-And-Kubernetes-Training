@@ -9,7 +9,7 @@ public class Test {
         System.out.print("Please enter your name => ");
         name = s.nextLine();
         while (choice != 2) {
-            System.out.println("1. Say Hi");
+            System.out.println("\n1. Say Hi");
             System.out.println("2. Exit the app");
             System.out.print("Choice => ");
             choice = s.nextInt();
